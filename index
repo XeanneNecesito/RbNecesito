@@ -11,9 +11,9 @@
 <body style="background-color:#B2DEFF;">
   <center>
   <img src="images/Lelouch.ico" alt="Anime"width="100" height="100">
-    <img src="https://github.com/XeanneNecesito/RbNecesito/blob/main/anime_header.jpg" alt="Anime"width="900" height="100">
+    <img src="images/anime_header.jpg" alt="Anime"width="900" height="100">
     <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
-         <img src="https://github.com/XeanneNecesito/RbNecesito/blob/main/home.png" alt="home" width="100" height="100">
+         <img src="images/home.png" alt="home" width="100" height="100">
       </a>
 
     <div style="background-color:#C5FFFD;color:black; height: 420px;width: 850px;padding: 30px">
@@ -24,11 +24,11 @@
     <h3 style="font-family:Arial;">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</h3>
 
       <a href="https://www.youtube.com">
-         <img src="https://github.com/XeanneNecesito/RbNecesito/blob/main/Start.png" alt="Start" width="300" height="100">
+         <img src="images/Start.png" alt="Start" width="300" height="100">
       </a>
         
 </div>
-  <img src="https://github.com/XeanneNecesito/RbNecesito/blob/main/anime_footer.jpg" alt="Anime"width="900" height="100">
+  <img src="images/anime_footer.jpg" alt="Anime"width="900" height="100">
     
 <br>
   <div id="audio" style="vertical-align: middle;">
