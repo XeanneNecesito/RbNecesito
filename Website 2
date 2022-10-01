@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <head>
+  <link rel="icon" href="images/Lelouch.ico"href="/images/favicon.ico/><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>   
+body{
+background-image:url("https://wallpaperaccess.com/full/1761712.jpg");
+background-size: 1800px 1000px;}  
+</style>  
+<body>
+  <center>
+  <img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
+    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
+    <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
+         <img src="images/home.png" alt="home" width="80" height="80">
+      </a>
+
+    <div style="background-color:#C5FFFD;color:black; height: 300px;width: 800px;padding: 40px">
+    <h1 style="color:#2B3E8C;">Anime Characters' Eyes Quiz</h1>
+      
+<h1>Enter your name</h1>
+      
+ <form>
+    <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name"><br><br>
+ </form>
+
+</h1>
+      <a href="https://www.youtube.com">
+         <img src="images/Start.png" alt="Start" width="300" height="100">
+      </a>
+        
+</div>
+<img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">  
+    <br><br>
+    <span style="background-color:#C5FFFD;color:black; height: 10px;width:30px;padding: 15px">Contact us:b2026xcenecesito@pshs.edu.ph</span>
+    </center> 
+  
+     
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
