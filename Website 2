@@ -7,6 +7,9 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+<header>
+  <p style="background-color:#C5FFFD; color:black; height: 20px; width:1280px;padding: 10px"><a href="https://project-weekly-progress.xeanne-chastise.repl.co"> HOME </a></p>
+</header>
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -46,7 +49,7 @@ background-size: 1800px 1000px;}
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">  
 <footer>
      <p style="background-color:#C5FFFD; color:black; height: 20px; width:1280px;padding: 10px">Contact us:b2026xcenecesito@pshs.edu.ph</p>
-   </footer>
+ </footer>
     </center> 
   
      
