@@ -6,37 +6,153 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+header {
+  display: block;
+}
+p, h1{
+  text-shadow:1px 1px white;
+}
+body {
+  justify-content: center;
+  align-items: center;
+}
+</style>
 </head>
-<style>   
+
+<head>
+<style>
+button, button::after {
+  width: 300px;
+  height: 85px;
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 88px;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+button::after {
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(65% -5px 0 0);
+  --slice-2: inset(45% -5px 30% 0);
+  --slice-3: inset(5% -5px 85% 0);
+  --slice-4: inset(35% -5px 43% 0);
+  --slice-5: inset(75% -5px 5% 0);
+  
+  content: 'START';
+  display: block;
+  position: absolute;
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  clip-path: var(--slice-0);
+}
+
+button:hover::after {
+  animation: 1s glitch;
+  animation-timing-function: steps(2, end);
+}
+
+@keyframes glitch {
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(20px, 10px);
+  }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(-10px, -10px);
+  }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(10px, -10px);
+  }
+  30% {
+    clip-path: var(--slice-3);
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var(--slice-2);
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var(--slice-3);
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var(--slice-4);
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var(--slice-2);
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var(--slice-5);
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var(--slice-1);
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
+}
+</style>
+</head>
+<center>
+<header style="background-color:#FFAFB6; color:black; height: 80px; width:1280px;padding: 10px">
+<img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
+    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
+<a href="https://project-weekly-progress.xeanne-chastise.repl.co">
+         <img src="images/home.png" alt="home" width="80" height="80">
+</a>
+</header>
+</center>
+<style> 
 body{
-background-image:url("https://wallpaperaccess.com/full/1761712.jpg");
-background-size: 1800px 1000px;}  
+background-image:url("https://33.media.tumblr.com/7a93af9469dfe6a71e10240686d4edd6/tumblr_nsw6chShBS1tombhfo1_500.gif");
+background-repeat: no-repeat;
+background-size: 1320px 700px;}
+html,body {
+    margin:0;
+    padding:0;
+}
 </style>  
 <body>
-  <center>
-  <img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
-    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
-    <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
-         <img src="images/home.png" alt="home" width="80" height="80">
-      </a>
+<center>
+<div style="color:black; height: 350px;width: 800px;padding: 15px">
+<h1 style="color:;">Anime Characters' Eyes Quiz</h1>
 
-    <div style="background-color:#C5FFFD;color:black; height: 350px;width: 800px;padding: 15px">
-    <h1 style="color:#2B3E8C;">Anime Characters' Eyes Quiz</h1>
+<p style="font-family:Arial;">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
 
-    <p style="font-family:Arial;">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
+<p style="font-family:Arial;">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
 
-    <p style="font-family:Arial;">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
+<button onclick="myFunction()">START</button>
 
-      <a href="https://project-website-2.xeanne-chastise.repl.co">
-         <img src="images/Start.png" alt="Start" width="240" height="80">
-      </a>
-        
-</div>
-   
-  <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">  
-    <br><br>
-    <span style="background-color:#C5FFFD;color:black; height: 10px;width:30px;padding: 15px">Contact us:b2026xcenecesito@pshs.edu.ph</span>
-    </center> 
+<script>
+function myFunction() {
+  location.replace("https://Project-Website-2.xeanne-chastise.repl.co")
+}
+</script>
+</center>
+<center>
+<br>
+<footer style="background-color:#FFAFB6; color:black; height: 110px; width:1280px;padding: 10px">
+<img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
+<p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
+</footer>
+</center>
+
   
      
   <script src="script.js"></script>
