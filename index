@@ -110,7 +110,7 @@ button:hover::after {
 </style>
 </head>
 <center>
-<header style="background-color:#FFAFB6; color:black; height: 80px; width:1280px;padding: 10px">
+<header style="background-color:#A3F3FF; color:black; height: 80px; width:1280px;padding: 10px">
 <img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
     <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
 <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
@@ -120,7 +120,7 @@ button:hover::after {
 </center>
 <style> 
 body{
-background-image:url("https://33.media.tumblr.com/7a93af9469dfe6a71e10240686d4edd6/tumblr_nsw6chShBS1tombhfo1_500.gif");
+background-image:url("https://data.whicdn.com/images/330990298/original.gif");
 background-repeat: no-repeat;
 background-size: 1320px 700px;}
 html,body {
@@ -131,11 +131,11 @@ html,body {
 <body>
 <center>
 <div style="color:black; height: 350px;width: 800px;padding: 15px">
-<h1 style="color:;">Anime Characters' Eyes Quiz</h1>
+<h1 style="font-size:40px"">Anime Characters' Eyes Quiz</h1>
 
-<p style="font-family:Arial;">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
+<p style="font-family:Arial; font-size: 18px">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
 
-<p style="font-family:Arial;">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
+<p style="font-family:Arial; font-size: 18px">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
 
 <button onclick="myFunction()">START</button>
 
@@ -146,8 +146,8 @@ function myFunction() {
 </script>
 </center>
 <center>
-<br>
-<footer style="background-color:#FFAFB6; color:black; height: 110px; width:1280px;padding: 10px">
+<br><br><br><br><br>
+<footer style="background-color:#A3F3FF; color:black; height: 110px; width:1280px;padding: 10px">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
 <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
 </footer>
