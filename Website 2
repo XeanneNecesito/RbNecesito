@@ -13,7 +13,7 @@
 </head>
 <center>
 <center>
-<header style="background-color:#FFAFB6; color:black; height: 85px; width:1280px;padding: 5px">
+<header style="background-color:#BCA1FF; color:black; height: 85px; width:1280px;padding: 5px">
 <img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
     <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
 <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
@@ -28,13 +28,16 @@ form{
 h2, h1, form{
   text-shadow:2px 2px black;
 }
+h2, form{
+  font-size: 30px;
+}   
 p{
   text-shadow: 2px 2px white;
 }
 body{
 background-image:url("https://www.wallpaperuse.com/wallp/1-15050_m.jpg");
 background-repeat: no-repeat;
-background-size: 1320px 700px;} 
+background-size:cover;} 
 *{
 overflow-x: hidden;
 }
@@ -127,7 +130,7 @@ button:hover::after {
 <body>
 <br><br>
 
-<h1 style="color:white;">Anime Characters' Eyes Quiz</h1>
+<h1 style="color:white; font-size: 40px">Anime Characters' Eyes Quiz</h1>
       
 <h2 style="color:white">Enter your name</h2>
       
@@ -146,7 +149,7 @@ function myFunction() {
 <br><br><br><br>
 </body>
 <center>
-<footer style="background-color:#FFAFB6; color:black; height: 140px;
+<footer style="background-color:#BCA1FF; color:black; height: 140px;
 width:1280px;padding: 10px;">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
   <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
