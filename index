@@ -107,14 +107,103 @@ button:hover::after {
     transform: translate(0);
   }
 }
+sidebar{
+  margin: 100px 0px;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+  .sidebar2{
+    margin: 100px 0px 10px 0px;
+    float:left;
+  }
+  .container {
+  position: relative;
+  width: 90%;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 70%;
+  height: auto;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom:0px;
+  height: 100%;
+  margin: 0px 35px;
+}
+
+.text1{
+  top: 80%;
+  left: 80%;
+  text-align:center;
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+}
+.text2{
+  top: 80%;
+  left: 90%;
+  text-align:center;
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+}
+.text3{
+  top: 80%;
+  left: 75%;
+  text-align:center;
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+}
+
+.sidebar2{
+  vertical-align: middle;
+  float:right;
+}
+<div style="margin-left:25%">
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 </style>
 </head>
 <center>
 <header style="background-color:#A3F3FF; color:black; height: 80px; width:1280px;padding: 10px">
-<img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
-    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
+<img src="images/Lelouch.ico" alt="Anime"width="70" height="70">
+    <img src="images/anime_header.jpg" alt="Anime"width="700" height="70">
 <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
-         <img src="images/home.png" alt="home" width="80" height="80">
+         <img src="images/home.png" alt="home" width="70" height="70">
 </a>
 </header>
 </center>
@@ -122,20 +211,21 @@ button:hover::after {
 body{
 background-image:url("https://data.whicdn.com/images/330990298/original.gif");
 background-repeat: no-repeat;
-background-size: 1320px 700px;}
+background-size: cover;}
 html,body {
     margin:0;
     padding:0;
 }
 </style>  
 <body>
+<div><img src="images/anya.png" class="sidebar2" alt="Anya"></div>
 <center>
-<div style="color:black; height: 350px;width: 800px;padding: 15px">
-<h1 style="font-size:40px"">Anime Characters' Eyes Quiz</h1>
+<div style="color:black; height: 30%;width:auto;padding: 0% 20% 0% 20%">
+<h1 style="font-size:35px"">Anime Characters' Eyes Quiz</h1>
 
-<p style="font-family:Arial; font-size: 18px">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
+<p style="font-family:Arial; font-size: 16px">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
 
-<p style="font-family:Arial; font-size: 18px">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
+<p style="font-family:Arial; font-size: 16px">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
 
 <button onclick="myFunction()">START</button>
 
@@ -146,7 +236,39 @@ function myFunction() {
 </script>
 </center>
 <center>
-<br><br><br><br><br>
+<br><br>
+<sidebar>
+  <br>
+<div class="container">
+  <img src="images/Killua.jpg" class="image" alt="Killua">
+  <div class="overlay">
+    <div class="text1">Killua Zoldyck <br> Hunter x Hunter </div>
+  </div></div>
+  <br>
+<div class="container">
+  <img src="images/Umaru.jpg" class="image" alt="Umaru">
+  <div class="overlay">
+    <div class="text2">Umaru Doma<br>Himouto! Umaru-chan</div>
+  </div></div>
+  <br>
+<div class="container">
+  <img src="images/Kirito.jpg" class="image" alt="Kirito">
+  <div class="overlay">
+    <div class="text1">Kirito<br>Sword Art Online</div>
+  </div></div>
+  <br>
+<div class="container">
+  <img src="images/mikasa.png" class="image" alt="Mikasa">
+  <div class="overlay">
+    <div class="text1">Mikasa<br>Attack on Titan</div>
+  </div></div>
+  <br>
+<div class="container">
+  <img src="images/Gojo.png" class="image" alt="Gojo">
+  <div class="overlay">
+    <div class="text3">Gojo Satoru<br>Jujutsu Kaisen</div>
+  </div></div>
+</sidebar>
 <footer style="background-color:#A3F3FF; color:black; height: 110px; width:1280px;padding: 10px">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
 <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
