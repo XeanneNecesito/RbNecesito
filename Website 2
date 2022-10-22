@@ -134,8 +134,7 @@ button:hover::after {
 <center>
 <div style="height: 30%; width: auto;padding: 0% 20% 0% 0%;">
 <h1 style="color:white; font-size: 40px">Anime Characters' Eyes Quiz</h1>
-</div>
-<div>    
+   
 <h2 style="color:white">Enter your name</h2>
       
  <form style="color:white">
