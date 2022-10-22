@@ -13,7 +13,7 @@
 </head>
 <center>
 <center>
-<header style="background-color:#BCA1FF; color:black; height: 85px; width:1280px;padding: 5px">
+<header style="background-color:#BCA1FF; color:black; height: 85px; width:auto;padding: 5px">
 <img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
     <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
 <a href="https://project-weekly-progress.xeanne-chastise.repl.co">
@@ -130,8 +130,12 @@ button:hover::after {
 <body>
 <br><br>
 
+<sidebar><img src="images/shinobu.png"alt="Shinobu"></sidebar>
+<center>
+<div style="height: 30%; width: auto;padding: 0% 20% 0% 0%;">
 <h1 style="color:white; font-size: 40px">Anime Characters' Eyes Quiz</h1>
-      
+</div>
+<div>    
 <h2 style="color:white">Enter your name</h2>
       
  <form style="color:white">
@@ -150,7 +154,7 @@ function myFunction() {
 </body>
 <center>
 <footer style="background-color:#BCA1FF; color:black; height: 140px;
-width:1280px;padding: 10px;">
+width:auto;padding: 10px;">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
   <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
 </footer>
