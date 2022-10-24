@@ -151,7 +151,7 @@ sidebar{
 
 .text1{
   top: 80%;
-  left: 80%;
+  left: 77%;
   text-align:center;
   white-space: nowrap; 
   color: white;
@@ -163,7 +163,7 @@ sidebar{
 }
 .text2{
   top: 80%;
-  left: 90%;
+  left: 89%;
   text-align:center;
   white-space: nowrap; 
   color: white;
@@ -175,7 +175,7 @@ sidebar{
 }
 .text3{
   top: 80%;
-  left: 75%;
+  left: 70%;
   text-align:center;
   white-space: nowrap; 
   color: white;
@@ -190,23 +190,16 @@ sidebar{
   vertical-align: middle;
   float:right;
 }
-<div style="margin-left:25%">
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
+div{
+  position:absolute;
+}
 </style>
 </head>
-<center>
-<header style="background-color:#A3F3FF; color:black; height: 80px; width:1280px;padding: 10px">
-<img src="images/Lelouch.ico" alt="Anime"width="70" height="70">
-    <img src="images/anime_header.jpg" alt="Anime"width="700" height="70">
-<a href="https://project-weekly-progress.xeanne-chastise.repl.co">
-         <img src="images/home.png" alt="home" width="70" height="70">
-</a>
-</header>
-</center>
 <style> 
 body{
 background-image:url("https://data.whicdn.com/images/330990298/original.gif");
@@ -218,6 +211,15 @@ html,body {
 }
 </style>  
 <body>
+<center>
+<header style="background-color:#A3F3FF; color:black; height: 80px; width:1280px;padding: 10px">
+<img src="images/Lelouch.ico" alt="Anime"width="70" height="70">
+    <img src="images/anime_header.jpg" alt="Anime"width="700" height="70">
+<a href="https://project-weekly-progress.xeanne-chastise.repl.co">
+         <img src="images/home.png" alt="home" width="70" height="70">
+</a>
+</header>
+</center>
 <div><img src="images/anya.png" class="sidebar2" alt="Anya"></div>
 <center>
 <div style="color:black; height: 30%;width:auto;padding: 0% 20% 0% 20%">
@@ -269,7 +271,7 @@ function myFunction() {
     <div class="text3">Gojo Satoru<br>Jujutsu Kaisen</div>
   </div></div>
 </sidebar>
-<footer style="background-color:#A3F3FF; color:black; height: 110px; width:1280px;padding: 10px">
+<footer style="background-color:#A3F3FF; color:black; height: 110px; width:100%;padding: 10px">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
 <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
 </footer>
