@@ -11,16 +11,6 @@
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<center>
-<center>
-<header style="background-color:#BCA1FF; color:black; height: 85px; width:auto;padding: 5px">
-<img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
-    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
-<a href="https://project-weekly-progress.xeanne-chastise.repl.co">
-         <img src="images/home.png" alt="home" width="80" height="80">
-</a>
-</header>
-</center>
 <style>
 form{
   font-size:30px;
@@ -39,7 +29,8 @@ background-image:url("https://www.wallpaperuse.com/wallp/1-15050_m.jpg");
 background-repeat: no-repeat;
 background-size:cover;} 
 *{
-overflow-x: hidden;
+justify-content: center;
+align-items: center;
 }
 button, button::after {
   width: 300px;
@@ -128,9 +119,19 @@ button:hover::after {
 }
 </style>   
 <body>
-<br><br>
+<center>
+<header style="background-color:#BCA1FF; color:black; height: 85px; width:100%;padding: 5px">
+<img src="images/Lelouch.ico" alt="Anime"width="80" height="80">
+    <img src="images/anime_header.jpg" alt="Anime"width="700" height="80">
+<a href="https://project-weekly-progress.xeanne-chastise.repl.co">
+         <img src="images/home.png" alt="home" width="80" height="80">
+</a>
+</header>
+</center>
+<br><br><br><br><br><br><br>
 
 <sidebar><img src="images/shinobu.png"alt="Shinobu"></sidebar>
+<img src="images/yuta.png" class="sidebar2" alt="Yuta">
 <center>
 <div style="height: 30%; width: auto;padding: 0% 20% 0% 0%;">
 <h1 style="color:white; font-size: 40px">Anime Characters' Eyes Quiz</h1>
@@ -150,14 +151,15 @@ function myFunction() {
 }
 </script>
 <br><br><br><br>
-</body>
 <center>
 <footer style="background-color:#BCA1FF; color:black; height: 140px;
-width:auto;padding: 10px;">
+width:100%;padding: 10px;">
 <img src="images/anime_footer.jpg"alt="Anime"width="700" height="80">
   <p>Contact us:b2026xcenecesito@pshs.edu.ph</p>
 </footer>
 </center>
+</body>
+
   
      
   <script src="script.js"></script>
