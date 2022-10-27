@@ -13,6 +13,16 @@ header {
 p, h1{
   text-shadow:1px 1px white;
 }
+.a{
+  color:white;
+  text-decoration: none;
+  font-size: 25px;
+  position:fixed;
+  top:68%;
+  vertical-align: middle;
+  background-color: #FFA8BD;
+  padding:8px;
+}
 body {
   justify-content: center;
   align-items: center;
@@ -48,7 +58,7 @@ button::after {
   --slice-4: inset(35% -5px 43% 0);
   --slice-5: inset(75% -5px 5% 0);
   
-  content: 'START';
+  content: 'NEXT';
   display: block;
   position: absolute;
   background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FFA8BD 5%);
@@ -229,13 +239,14 @@ html,body {
 
 <p style="font-family:Arial; font-size: 16px">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
 
-<button onclick="myFunction()">START</button>
+<button onclick="myFunction()">NEXT</button>
 
 <script>
 function myFunction() {
   location.replace("https://Project-Website-2.xeanne-chastise.repl.co")
 }
 </script>
+<a class="a" href="https://homepage-2.xeanne-chastise.repl.co">Parts of the Game</a>
 </center>
 <center>
 <br><br>
