@@ -178,11 +178,14 @@ body {
   <div class="overlay">
   <div class="text">
     Sources: <br>
-    Amazon. (n.d.). Code Geass: Lelouch of the Rebellion Lelouch Lamperouge. [JPEG]. https://art.ncoll-central.com/image/214/Lelouch_Lamperouge
-    <br>
-    Zaratthustra. (n.d.). LelouchViBritannia Render. [JPEG]. https://vsbattles.fandom.com/wiki/Lelouch_vi_Britannia?file=LelouchViBritannia_Render.png</div>
-  </div>
-</div>
+    Amazon. (n.d.). Code Geass: Lelouch of the Rebellion Lelouch Lamperouge. [JPEG]. https://art.ncoll-central.com/image/214/Lelouch_Lamperouge<br><br>
+    DReager1.com. (2012, February 25). Ryoma Nagare vs Lelouch. [JPEG]. https://dreager1.com/2012/02/25/ryoma-nagare-vs-lelouch/ <br><br>
+    Lei, S. (2020, December 18). CYBERPUNK 2077 GLITCH BUTTON. https://codepen.io/stevenlei/pen/ZEpyBod <br><br>
+    RyuZU²'s. (n.d.). Anime – Crossover.[JPEG]. https://wall.alphacoders.com/by_sub_category.php?id=215604&name=Crossover+Wallpapers<br><br>
+    Zaratthustra. (n.d.). LelouchViBritannia Render. [JPEG]. https://vsbattles.fandom.com/wiki/Lelouch_vi_Britannia?file=LelouchViBritannia_Render.png
+ </div>
+ </div>
+ </div>
 <button onclick="myFunction()">NEXT</button>
 <script>
     function myFunction() {
