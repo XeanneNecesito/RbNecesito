@@ -10,6 +10,7 @@
 <style>
 header {
   display: block;
+  width: 1400px;
 }
 p, h1{
   text-shadow:1px 1px white;
@@ -18,8 +19,9 @@ p, h1{
   color:white;
   text-decoration: none;
   font-size: 25px;
-  position:fixed;
-  top:68%;
+  position:absolute;
+  top:43%;
+  left:44%;
   vertical-align: middle;
   background-color: #FFA8BD;
   padding:8px;
@@ -27,10 +29,13 @@ p, h1{
 body {
   justify-content: center;
   align-items: center;
+  overflow:auto;
+  width: 100%;
+  length: 100%; 
+  overflow-x: hidden; 
 }
 </style>
 </head>
-
 <head>
 <style>
 button, button::after {
@@ -118,6 +123,7 @@ button:hover::after {
     transform: translate(0);
   }
 }
+/*images in the right*/
 sidebar{
   margin: 100px 0px;
   height: 100%;
@@ -127,11 +133,14 @@ sidebar{
   top: 0;
   left: 0;
 }
-  .sidebar2{
+/*Anya picture*/
+.sidebar2{
     margin: 100px 0px 10px 0px;
     float:left;
+    vertical-align: middle;
+    float:right;
   }
-  .container {
+.container {
   position: relative;
   width: 90%;
 }
@@ -158,6 +167,7 @@ sidebar{
   bottom:0px;
   height: 100%;
   margin: 0px 35px;
+  overflow:auto;
 }
 
 .text1{
@@ -196,11 +206,6 @@ sidebar{
   transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
 }
-
-.sidebar2{
-  vertical-align: middle;
-  float:right;
-}
 footer{
   position: fixed;
   bottom: 0;
@@ -208,6 +213,12 @@ footer{
 }
 div{
   position:absolute;
+}
+.sources{
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  margin-left: 23%;
 }
 </style>
 </head>
@@ -237,18 +248,37 @@ html,body {
 <h1 style="font-size:35px"">Anime Characters' Eyes Quiz</h1>
 
 <p style="font-family:Arial; font-size: 16px">This quiz will test your knowledge about anime characters. Each question will show the eyes of a character and you have to pick the name of the character. You'll gain 10 points for every correct answer. Your score will be recorded. You have to input your nickname so your score can be recorded. There are 10 questions. The challenge is to get the highest score. In the end, there will be a leaderboard and it will show your rank. Your goal is to be in the 1st rank. If there are many people who get perfect scores, they will be placed at the upper most part of the leaderboard.</p>
-
 <p style="font-family:Arial; font-size: 16px">You will click the answer. After doing so, you will see the next webpage that has the name of the character and the anime. After that, you will be sent to the next webpage to see the next question. The cycle will repeat until you have answered the 10 questions.</p>
-
+<!--buttons-->
+<a class="a" href="https://homepage-2.xeanne-chastise.repl.co">Parts of the Game</a>
 <button onclick="myFunction()">NEXT</button>
-
 <script>
 function myFunction() {
   location.replace("https://homepage-3.xeanne-chastise.repl.co")
 }
 </script>
-<a class="a" href="https://homepage-2.xeanne-chastise.repl.co">Parts of the Game</a>
+<br>
+</div>
 </center>
+<p class="sources"> Sources: <br><br>Chenu, R. (2021). She's a simp for Eren but she has a good reason for that. [JPEG]. 
+https://qph.cf2.quoracdn.net/main-qimg-4d03433b4dc14a30ef4a96ff93df849e-pjlq<br> 
+DReager1.com. (2012, February 25). Ryoma Nagare vs Lelouch. [JPEG]. 
+https://dreager1.com/2012/02/25/ryoma-nagare-vs-lelouch/<br> 
+Lei, S. (2020, December 18). CYBERPUNK 2077 GLITCH BUTTON. 
+https://codepen.io/stevenlei/pen/ZEpyBod<br> 
+Kovit, C. (2016, November 2). AMV SwordArtOnline - KIRITO -Feel Invincible. [JPEG]. 
+https://i.ytimg.com/vi/JCUtv9CtEVo/maxresdefault.jpg <br>
+Mara. (2021, February 12). Hunter X Hunter: Killua Zoldyck (ISTP). [JPEG]. 
+https://practicaltyping.com/2019/01/04/killua-zoldyck-istp/ <br>
+MindyK. (n.d.). Anya Pointing Set (Spy x Family). [JPEG]. 
+https://images.gamebanana.com/img/ico/sprays/627d932c150ba.png <br>
+Quixlee. (2020, June 16). Cherry Blossom Anime GIF. [GIF]. https://tenor.com/view/cherry-blossom-
+anime-flowers-petals-falling-gif-17516981<br>
+RyuZU²'s. (n.d.). Anime – Crossover.[JPEG]. 
+https://wall.alphacoders.com/by_sub_category.php?id=215604&name=Crossover+Wallpapers<br>
+Saku-chan. (2015). Himotou! Umaru-chan. [JPEG]. 
+https://medibang.com/picture/qr1605100812188000000886732/
+</p>
 <center>
 <br><br>
 <sidebar>
