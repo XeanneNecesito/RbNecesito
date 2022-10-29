@@ -23,7 +23,7 @@
   box-shadow: 6px 0px 0px #00E6F6;
   outline: transparent;
   position: fixed;
-  top: 65%;
+  top: 69%;
   left: 43%;
   right: 0;
   bottom: 0%;
