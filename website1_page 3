@@ -106,9 +106,6 @@ img{
 header, footer{
   z-index:2;
 }
-h1{
-  z-index:3;
-}
 button{
   z-index:4;
 }
@@ -116,8 +113,53 @@ html,body {
     margin:0;
     padding:0;
 }
-body{
-  position: fixed;
+/*sources*/
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #482980;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+body {
+  justify-content: center;
+  align-items: center;
+  overflow:auto;
+  width: 100%;
+  length: 1700px; 
+  background-color:black;
 }
 </style>
 </head>
@@ -131,8 +173,16 @@ body{
          <img src="images/home.png" alt="home" width="70" height="70">
 </a>
 </header>
-<img src="images/code geass.png" alt="Code Geass" width=100% height=100%>
-<h1>Who is this character?</h1>
+<div class="container">
+  <img src="images/code geass.png" alt="Code Geass" class="image">
+  <div class="overlay">
+  <div class="text">
+    Sources: <br>
+    Amazon. (n.d.). Code Geass: Lelouch of the Rebellion Lelouch Lamperouge. [JPEG]. https://art.ncoll-central.com/image/214/Lelouch_Lamperouge
+    <br>
+    Zaratthustra. (n.d.). LelouchViBritannia Render. [JPEG]. https://vsbattles.fandom.com/wiki/Lelouch_vi_Britannia?file=LelouchViBritannia_Render.png</div>
+  </div>
+</div>
 <button onclick="myFunction()">NEXT</button>
 <script>
     function myFunction() {
